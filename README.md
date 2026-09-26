@@ -1,4 +1,7 @@
-# vinext-starter
+# Aditi Garden: The Living Map
+
+An interactive, client-side garden explorer built with React, Three.js, and
+vinext.
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
@@ -15,6 +18,16 @@ npm install
 npm run dev
 npm run build
 ```
+
+## Deploy to Vercel
+
+Push this repository to GitHub, import it into Vercel, and keep the detected
+framework settings. The included `vercel.json` uses the Nitro/Vercel adapter:
+Vercel runs `npm run build:vercel` and serves the generated Vercel output.
+
+The garden is public and does not require environment variables or ChatGPT
+authentication. The OpenAI Sites and Cloudflare files are retained only for the
+original Sites preview workflow; they are not loaded by the Vercel build.
 
 This starter does not use `wrangler.jsonc`.
 
